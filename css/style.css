@@ -1,0 +1,67 @@
+body{
+    background-image: url("../img/Background_image.svg");
+    background-color: #121826;
+}
+h1{
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+p{
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+h3{
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    gap: 3.125rem;
+    flex-flow: row;
+}
+.card{
+    background-color: #212936;
+    padding: 1.15rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 100%;
+}
+.symbol1{
+    background-color: #FCEED8;
+    border-radius: 100%;
+    width: 3.75rem;
+    height: 3.125rem;
+    font-size: 2rem;
+}
+.symbol2{
+    background-color: #DEE9FC;
+    border-radius: 100%;
+    width: 3.75rem;
+    height: 3.125rem;
+    font-size: 2rem;
+}
+.symbol3{
+    background-color: #FBE5E6;
+    border-radius: 100%;
+    width: 3.75rem;
+    height: 3.125rem;
+    font-size: 2rem;
+}
+.images{
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 15rem;
+}
+.images:hover{
+    border: 1rem solid white ;
+}
